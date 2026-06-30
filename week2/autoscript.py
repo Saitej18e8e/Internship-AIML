@@ -12,6 +12,9 @@
 
 import shutil #used for file opperation
 
-shutil.copy(), shutil.move() os.remove()
-shutil,copytree(),shutil.rmtree()
+shutil.copy(), shutil.move() 
+shutil.copytree(),shutil.rmtree()
 
+import pathlib as Path
+
+Path("apifunction")
